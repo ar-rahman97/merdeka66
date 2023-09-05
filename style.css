@@ -1,0 +1,212 @@
+body {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.b1{
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+
+.b2 {
+    height: 30px;
+    width: 500px;
+    position: relative;
+}
+
+.b3 {
+    height: 100px;
+    width: 500px;
+    font-family: "Arial Black";
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(215deg, #1C1564 33%, #006DB8 70%);
+    text-align: center;
+    font-size: 70px;
+}
+
+.enam {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%,-50%);
+}
+
+.enam-pertama {
+    top: 60%;
+    left: 35%;
+    z-index: 2;
+}
+
+.enam-kedua {
+    top: 70%;
+    left: 55%;
+    z-index: 1;
+}
+
+.enam div {
+    position: absolute;
+}
+
+.bulat {
+    width: 120px;
+    height: 120px;
+    background : linear-gradient(45deg, #1C1564 9%, #006DB8 71%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+.bulatbesar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ekor {
+    height: 180px;
+    width: 80px;
+    top: 20%;
+    left: 51%;
+    transform: skewX(-35deg) translate(-50%, -50%);
+    transform-origin: top;
+    z-index: -1;
+}
+
+.ekor-pertama {
+    background: linear-gradient(200deg, #1C1564 9%, #006DB8 71%);
+}
+
+.bulatbesar-pertama {
+    background: linear-gradient(200deg, #1C1564 9%, #006DB8 71%);
+    border: 5px solid white;
+}
+
+.bulatbesar-kedua {
+    background-color: red;
+}
+
+.jalur {
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main {
+    width: 10px;
+    height: 180px;
+    background-color: white;
+    border: 6px solid red;
+}
+
+.bulan {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: relative;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bulan::before {
+    content: "";
+    width: 64px;
+    height: 74px;
+    background: linear-gradient(55deg, #1C1564 3%, #006DB8 70%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.bintang {
+    top: 48.3%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+
+.point {
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    border-right: 27px solid yellow;
+}
+
+.th {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    color: white;
+    text-shadow:
+        -4px -4px 0 red, /* Top-left shadow */
+        4px -4px 0 red,  /* Top-right shadow */
+        -4px 4px 0 red,  /* Bottom-left shadow */
+        4px 4px 0 red;   /* Bottom-right shadow */
+}
+
+.b2 div {
+    position: absolute;
+}
+
+.merahsquare {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    left: 50%;
+    width: 250px;
+    height: 30px;
+    background: radial-gradient(circle, rgba(255,0,0,1) 83%, rgba(77,16,16,1) 100%);
+    line-height: 30px;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    z-index: 1;
+    color: white;
+}
+
+.merah {
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+.merahkiri {
+    left: 25%;
+}
+
+.merahkanan {
+    left: 75%;
+}
+
+.segitiga {
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+.segitigakiri {
+    left: 20.9%;
+    border-left: 10px solid white;
+}
+
+.segitigakanan {
+    left: 79.2%;
+    border-right: 10px solid white;
+}
